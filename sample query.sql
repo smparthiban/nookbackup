@@ -1,4 +1,4 @@
-select b.* from(select a.* from (select V.* from (SELECT alloc_id, customer_name, product_description, product_category, allocated,
+select a.* from (select V.* from (SELECT alloc_id, customer_name, product_description, product_category, allocated,
 
 available_inventory, due_date,allocation_orders,backlog_orders,
 
@@ -186,7 +186,7 @@ LEFT JOIN fiscal_calendars_report afc ON ot.due_date >= afc.start_date AND ot.du
 LEFT JOIN app_allocation_sets aas ON ot.allocation_set_id = aas.id
 
 WHERE afc.calendar = "Fiscal_Week" AND ot.allocation_set_id = 48 and afc.start_date < (select start_date from fiscal_calendars_report where calendar = 'Fiscal_Month'
- and DATE_ADD(NOW(), INTERVAL 60 DAY) between start_date and end_date) and afc.start_date > sysdate()) V) a ) as b
+ and DATE_ADD(NOW(), INTERVAL 60 DAY) between start_date and end_date) and afc.start_date > sysdate()) V) a )
 
 /*wq*/
 

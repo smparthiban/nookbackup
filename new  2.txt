@@ -1,0 +1,17 @@
+use any one of the sup email address for testing DH all leaves report. Philip.Bonino@DignityHealth.org
+Jodee.Koopman@DignityHealth.org
+Kim.Dokken@DignityHealth.org
+Kevin.Walters@DignityHealth.org
+anthony.White@DignityHealth.org
+Bernard.Miller@DignityHealth.org
+Bradley.Wild@DignityHealth.org
+Joseph.Kosso@DignityHealth.org
+AnnMarie.McCormick@DignityHealth.org
+Michelle.King@DignityHealth.org
+Thomas.Burns@DignityHealth.org
+Ronna.Sabol@DignityHealth.org
+Deborah.Winiewicz@DignityHealth.org
+
+cli code : 1413
+
+daterange : CH_WEEKLY
